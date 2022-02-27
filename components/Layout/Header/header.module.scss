@@ -1,0 +1,33 @@
+.header {
+  .container {
+    max-width: 1240px;
+    margin: auto;
+    .headerTitle {
+      padding-top: 120px;
+      h3 {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        color: white;
+      }
+      h1 {
+        max-width: 666px;
+        font-weight: 300;
+        font-size: 72px;
+        line-height: 85px;
+        color: #ffffff;
+      }
+      button {
+        width: 225px;
+        height: 50px;
+        background: #00f0ff;
+        border-radius: 22px;
+        border: none;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+      }
+    }
+  }
+}
