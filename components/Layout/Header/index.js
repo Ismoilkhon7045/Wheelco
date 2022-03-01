@@ -5,7 +5,7 @@ import NavBar from './navBar'
 const Header = () => {
     return (
         <div className={cls.header}>
-            <div className={cls.container}>
+            <div className="container">
                 <NavBar />
                 <div className={cls.headerTitle}>
                     <h3>WHEELCO TRANSPORT WORDPRESS THEME</h3>

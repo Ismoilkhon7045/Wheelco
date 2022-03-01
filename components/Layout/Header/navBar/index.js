@@ -1,11 +1,11 @@
 import React from "react";
 import cls from './navBar.module.scss'
-import { Clock, Fecebook, Linkedin, Logo, Search, Twitter } from "../../../../svg";
+import { Clock, Fecebook, Linkedin, Logo, Search, Twitter,Location, Phone } from "../../../../svg";
 
 export default function NavBar() {
     return (
         <div className={cls.navBar}>
-            <div className={cls.container}>
+            <div className="container">
                 <div>
                     <div className={cls.navBartop}>
                         <div className={cls.logo}>
@@ -21,14 +21,14 @@ export default function NavBar() {
                                 </div>
                             </div>
                             <div className={cls.workTimeBox}>
-                                <Clock />
+                                <Location />
                                 <div>
                                     <p className={cls.title}>Location</p>
                                     <p>1010 Avenue, NY</p>
                                 </div>
                             </div>
                             <div className={cls.workTimeBox}>
-                                <Clock />
+                                <Phone />
                                 <div>
                                     <p className={cls.title}>Call Centar</p>
                                     <p>1-800-700-600</p>

@@ -1,0 +1,69 @@
+.feature {
+  max-width: 1264px;
+  height: auto;
+  display: flex;
+  position: relative;
+  margin-left: auto;
+  bottom: -220px;
+  margin-top: -200px;
+  .featureLeftbox {
+    .featureimgBlock {
+      margin-top: -4px;
+      margin-bottom: -4px;
+    }
+  }
+  .featureInfo {
+    max-width: 744px;
+    width: 100%;
+    background: white;
+    padding: 70px 20px 0 120px;
+    .featureInfoBox {
+      max-width: 575px;
+      position: absolute;
+      .featureInfoBoxTitle {
+        font-weight: 300;
+        font-size: 45px;
+        line-height: 53px;
+        margin: 0;
+        padding-bottom: 10px;
+      }
+      hr {
+        width: 100px;
+        height: 4px;
+        margin: 0;
+        background: #5478e7;
+        border: none;
+      }
+      .featureInfoBoxDescription{
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 33px;
+        margin: 0;
+        padding-top: 15px;
+        padding-bottom: 20px;
+      }
+      .featureInfoBoxItems {
+        .featureBoxItem {
+            display: flex;
+            align-items: center;
+           gap: 30px;
+            .featureBoxItemimg{
+                img{
+                    width: 55px;
+                }
+            }
+          .featureBoxItemInfo{
+              h3{
+                  font-size: 18px;
+                  font-weight: 500;
+              }
+              p{
+                  font-size: 16px;
+
+              }
+          }
+        }
+      }
+    }
+  }
+}

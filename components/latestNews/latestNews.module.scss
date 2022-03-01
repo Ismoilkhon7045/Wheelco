@@ -1,0 +1,80 @@
+.latestNews {
+  width: 100%;
+  background: #f2f2f2;
+  padding-top: 123px;
+  padding-bottom: 107px;
+  .container {
+    max-width: 1155px;
+    margin: auto;
+    .header {
+      h3 {
+        font-weight: 300;
+        font-size: 45px;
+        line-height: 53px;
+        text-align: center;
+        color: #000000;
+        margin: 0;
+        padding-bottom: 40px;
+      }
+      hr {
+        width: 100px;
+        height: 4px;
+        margin: auto;
+        background: #5478e7;
+        border: none;
+      }
+      p {
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        color: #000000;
+        margin: 0;
+        padding-top: 40px;
+        padding-bottom: 84px;
+      }
+    }
+    .cardsBox {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        justify-content: center;
+        gap: 68px;
+        
+      .card {
+        max-width: 250px;
+        .detailsBox {
+          display: flex;
+          align-items: center;
+          padding-left: 20px;
+          padding-top: 10px;
+          gap: 10px;
+          .detail {
+            display: flex;
+            align-items: center;
+
+            gap: 5px;
+            p {
+              margin: 0;
+              font-weight: 300;
+              font-size: 10px;
+              line-height: 12px;
+            }
+            img {
+              width: 10px;
+              height: 10px;
+            }
+          }
+        }
+        .cardTitle {
+          p {
+            max-width: 230px;
+            padding: 0 20px;
+            font-weight: 500;
+            font-size: 22px;
+            line-height: 26px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,9 +1,9 @@
 .header {
-  .container {
     max-width: 1240px;
     margin: auto;
     .headerTitle {
       padding-top: 120px;
+      padding-bottom: 380px;
       h3 {
         font-style: normal;
         font-weight: 400;
@@ -29,5 +29,4 @@
         line-height: 19px;
       }
     }
-  }
 }

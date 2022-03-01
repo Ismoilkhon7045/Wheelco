@@ -1,0 +1,11 @@
+.client{
+    width: 100%;
+    background: white;
+    padding: 105px 0 105px 0;
+    .clientBox{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 95px;
+    }
+}
